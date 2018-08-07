@@ -1,6 +1,7 @@
 var request = require('request');
 var password = require('./secrets.js');
 var fs = require('fs');
+require('dotenv').config();
 
 var args = process.argv.slice(2);
 
